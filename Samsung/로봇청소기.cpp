@@ -1,5 +1,4 @@
 // https://www.acmicpc.net/problem/14503
-
 #include <iostream>
 using namespace std;
 
@@ -80,7 +79,6 @@ int main()
       cin >> map[i][j];
     }
   }
-
   //dfs(r, c, d, map);
   dfs(r, c, d);
 
