@@ -4,7 +4,7 @@
  */
 #include <iostream>
 using namespace std;
-ㅁㄴㅇㅁㄴㅇ
+
 #define BLANK 0
 #define WALL 1
 #define CLEAN 2
