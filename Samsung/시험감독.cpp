@@ -1,4 +1,7 @@
-//https://www.acmicpc.net/problem/13458
+/*
+  시험감독
+  https://www.acmicpc.net/problem/13458
+*/
 #include <iostream>
 using namespace std;
 
