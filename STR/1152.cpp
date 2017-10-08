@@ -15,7 +15,6 @@ int main()
   for(int i=0; i<str.size(); i++){
     if(str[i] == ' ') cnt++;
   }
-ㅇㅁㅇㅁㄴㅇ
   /* 문장의 맨 앞,뒤 공백 주의*/
   if(str.at(0) == ' '){
     cnt--;
