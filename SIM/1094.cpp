@@ -15,7 +15,7 @@ int main()
   int res = 0;
   while(1){
     if(X == 0 || X == stick){
-      res++;sda;a;lskdl;aksl;dk;l
+      res++;
       break;
     }
 
