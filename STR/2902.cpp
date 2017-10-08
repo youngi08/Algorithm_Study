@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-  string str;ㅁㄴㅇㅁㄴ
+  string str;
   cin >> str;
 
   vector<char> v;
