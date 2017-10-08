@@ -11,7 +11,7 @@ int main()
 {
   int L;
   cin >> L;
-  int N;ㅁㅇㅁㄴㅇㄴㅁ
+  int N;
   cin >> N;
 
   int *cake = new int[L+1];
