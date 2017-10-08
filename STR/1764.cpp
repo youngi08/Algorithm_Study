@@ -1,3 +1,8 @@
+/*
+  듣보잡
+  https://www.acmicpc.net/problem/1764
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <string>
