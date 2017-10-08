@@ -14,7 +14,7 @@ string str[1000000];
 int main()
 {
   int n, m, r;
-  scanf("%d %d", &n, &m);
+  scanf("%d %d", &n,ㅁㄴㅇ &m);
 
   for(int i = 0; i < n + m; i++){
     cin >> str[i];
