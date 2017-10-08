@@ -16,6 +16,7 @@ int main()
     if(str[i] == ' ') cnt++;
   }
 
+  /* 문장의 맨 앞,뒤 공백 주의*/
   if(str.at(0) == ' '){
     cnt--;
   }
