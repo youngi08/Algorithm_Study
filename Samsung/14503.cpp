@@ -2,7 +2,6 @@
   로봇청소기
   https://www.acmicpc.net/problem/14503
 */
-
 #include <iostream>
 
 using namespace std;
@@ -72,21 +71,21 @@ int main()
 
   cin >> N >> M;
   cin >> r >> c >> d;
-/*
+
   int **map = new int*[N];
   for(int i = 0; i < N; ++i){
     map[i] = new int[M];
     memset(map[i], 0, sizeof(int)*M);
   }
-*/
+
   for(int i=0; i<N; i++){
     for(int j=0; j<M; j++){
       cin >> map[i][j];
     }
   }
 
-  //dfs(r, c, d, map);
-  dfs(r, c, d);
+  dfs(r, c, d, map);
+  //dfs(r, c, d);
 
   return 0;
 }
