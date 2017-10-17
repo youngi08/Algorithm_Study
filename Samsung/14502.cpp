@@ -10,7 +10,7 @@ using namespace std;
 
 int map[8][8] = {0};
 int tmp[8][8] = {0};
-int m, n, max_value = 0;
+int m, n, res = 0;
 
 int dx[4] = {1, 0, 0, -1};
 int dy[4] = {0, 1, -1, 0};
@@ -75,7 +75,7 @@ void dfs(int x, int y, int d)
   if(d == 3){
     copy_map();
     bfs();
-    max_value = max(max_value, recovery());
+    res = max(res, recovery());
 
     map[x][y] = 0;
     return;
@@ -109,7 +109,7 @@ int main()
     }
   }
 
-  cout << max_value << endl;
+  cout << res << endl;
 
   return 0;
 }
