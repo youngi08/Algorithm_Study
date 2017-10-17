@@ -68,11 +68,11 @@ void bfs()
   }
 }
 
-void dfs(int x, int y, int d)
+void dfs(int x, int y, int c)
 {
   map[x][y] = 1;
 
-  if(d == 3){
+  if(c == 3){
     copy_map();
     bfs();
     res = max(res, recovery());
@@ -83,10 +83,9 @@ void dfs(int x, int y, int d)
 
   for(int i = x; i < m; i++){
     for(int j = 0; j < n; j++){
-      if(map[i][j] == 0) dfs(i, j, d + 1);
+      if(map[i][j] == 0) dfs(i, j, c+1);
     }
   }
-
   map[x][y] = 0;
 }
 
